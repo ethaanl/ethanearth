@@ -1,0 +1,159 @@
+/* main */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #003329;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* header */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    pointer-events: none;
+    margin-right: 24vw;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #9a9a9a;
+    padding: 6px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover {
+    background: #fff;
+    color: #359381;
+    transition-duration: 500ms;
+}
+
+.description2 {
+    position: relative;
+    background: #003329;
+    padding-top: 24vh;
+    padding-bottom: 100px;
+    padding-left: 20vw;
+    padding-right: 17vw;
+}
+
+.description2 h2 {
+    font-size: 3.5em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.description2 a {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+
+.description2 p {
+    color: #9a9a9a;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.description2 a:hover {
+    text-decoration: underline;
+}
+
+.description3 {
+    position: relative;
+    background: #003329;
+    padding-top: 24vh;
+    padding-bottom: 100px;
+    padding-left: 26vw;
+    padding-right: 26vw;
+}
+
+.description3 h2 {
+    font-size: 3.5em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.description3 a {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+
+.description3 p {
+    color: #afaeae;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.description3 a:hover {
+    text-decoration: underline;
+}
+
+p .article {
+    color: #fff;
+}
+
+.home_button {
+
+    border: #fff;
+    border-width: 4px;
+    border-radius: 4px;
+
+}
+
+h5 {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 1em;
+    color: #afaeae;
+    text-align: left;
+}
+
+/* about me */
+.float-container {
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
+
+.profile {
+    border-radius: 8%;
+}
